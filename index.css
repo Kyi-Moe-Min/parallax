@@ -26,18 +26,20 @@ img {
   position: absolute;
   opacity: 0.8;
   filter: drop-shadow(2px 3px 10px #e0e4ff);
-  transform: scale(0.9) translateZ(10px);
+  transform: scale(0.9) translate3d(0, -200px, 10px);
 }
 
 .hills {
   transform: scale(0.8) translateZ(20px);
 }
-
-.trees {
+.bird {
+  transform: translate(350px, -185px);
+}
+.bats {
   transform: scale(0.7) translateZ(30px);
 }
 
-.bats {
+.trees {
   transform: scale(0.6) translateZ(40px);
 }
 
