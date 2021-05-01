@@ -40,4 +40,10 @@
       <img class="trees" src="img/trees.svg" alt="trees" />
     </div>
   </body>
+  <script>
+    document.body.addEventListener("scroll", () => {
+      let scroll = document.body.scrollTop / document.body.offsetHeight;
+      document.body.style.setProperty("--scroll", scroll);
+    });
+  </script>
 </html>
